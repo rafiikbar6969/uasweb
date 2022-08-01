@@ -16,7 +16,7 @@ class CreateSewaTable extends Migration
         Schema::create('sewa', function (Blueprint $table) {
             $table->id();
             $table->integer('id_pelanggan');
-            $table->integer('id_mobil',);
+            $table->integer('id_mobil');
             $table->string('tgl_pinjam', 50);
             $table->string('tgl_kembali', 50);
             $table->string('total_bayar', 50);

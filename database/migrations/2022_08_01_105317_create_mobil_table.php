@@ -18,7 +18,7 @@ class CreateMobilTable extends Migration
             $table->string('nama', 50);
             $table->string('jenis', 15);
             $table->string('merk', 50);
-            $table->string('warna', 50);
+            $table->string('warna', 200);
             $table->string('status', 50);
             $table->timestamps();
         });

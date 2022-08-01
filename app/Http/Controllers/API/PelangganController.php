@@ -35,7 +35,7 @@ public function add(Request $request){
     'nama' => 'required',
     'no_telp' => 'required',
     'email' => 'required',
-    'alamat' => 'required|min:5'
+    'alamat' => 'required'
     ]);
 
     if($validate->fails()){

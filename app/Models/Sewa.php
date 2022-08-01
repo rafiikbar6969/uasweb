@@ -24,6 +24,6 @@ class Sewa extends Model
 
     public function pelanggan()
     {
-        return $this->belongsTo(Pelanggan::class, 'id_mobil');
+        return $this->belongsTo(Pelanggan::class, 'id_pelanggan');
     }
 }

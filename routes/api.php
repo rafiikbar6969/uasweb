@@ -26,7 +26,7 @@ route::delete('v1/customer/{id}', [PelangganController::class, 'destroy']);
 route::patch('v1/customer/{id}', [PelangganController::class, 'update']);
 
 // mobil
-route::get('v1/mobil', [MobilController::class, 'index']);
+route::get('v1/mobil', [MobilController ::class, 'index']);
 route::post('v1/mobil', [MobilController::class, 'add']);
 route::delete('v1/mobil/{id}', [MobilController::class, 'destroy']);
 route::patch('v1/mobil/{id}', [MobilController::class, 'update']);
