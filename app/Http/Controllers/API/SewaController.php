@@ -12,7 +12,7 @@ class SewaController extends Controller
     // tampilin data
     public function index()
     {
-        $data = Sewa::with('mobil' ,'pelanggan')->get();
+        $data = Sewa::with('mobil','pelanggan')->get();
         if($data){
             return response()->json([
                 'pesan' => 'success',
